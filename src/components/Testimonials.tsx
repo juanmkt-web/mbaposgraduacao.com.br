@@ -8,27 +8,27 @@ const testimonials = [
   {
     id: 1,
     quote:
-      "Na Engenharia, a teoria da faculdade é uma coisa, o campo é outra. Eu tinha insegurança de assumir projetos maiores. A especialização me deu a firmeza técnica que faltava. Hoje assino meus projetos e laudos sabendo exatamente o que estou fazendo, sem aquele frio na barriga.",
+      "Na faculdade a gente vê muita teoria, mas quando chega um paciente pós-operado sentindo dor, bate o medo de mexer. Eu me sentia insegura. A especialização em Trauma me deu a 'mão firme' e o raciocínio clínico que faltava. Hoje recupero pacientes complexos na metade do tempo e cobro o dobro pela consulta.",
     name: "Jamile Alves",
-    course: "Especialização Em Engenharia Elétrica e Suas Técnicas",
+    course: "Fisioterapia em Ortopedia e Traumatologia",
     photo: jamileAlves,
     scale: 1,
   },
   {
     id: 2,
     quote:
-      "O mercado de personal tá lotado, e pra cobrar um valor justo você tem que entregar resultado rápido. O curso me ensinou a montar treinos com ciência de verdade, não 'achismo'. Meus alunos evoluem muito mais e minha agenda, que vivia buracos, agora tá cheia.",
+      "Eu era um bom programador, mas meus códigos viravam uma bagunça difícil de manter depois de um tempo. Eu vivia corrigindo bugs antigos. O curso de Engenharia de Software mudou minha mentalidade. Aprendi arquitetura e padrões de projeto de verdade. Hoje não apenas escrevo código, eu desenho soluções escaláveis e fui promovido a Tech Lead.",
     name: "Arnaldo de Araújo",
-    course: "Personal Training: Metodologia do Treinamento Personalizado",
+    course: "Especialização em Engenharia de Software",
     photo: arnaldoAraujo,
     scale: 1,
   },
   {
     id: 3,
     quote:
-      "Trabalhar em indústria farmacêutica é pressão pura, qualquer erro custa caro. Eu precisava entender melhor as normas e a gestão da fábrica pra subir de cargo. O curso abriu minha visão: hoje consigo resolver problemas na linha de produção que antes me deixavam sem dormir.",
+      "Eu entregava o projeto da casa, mas perdia dinheiro porque o cliente contratava outra pessoa para fazer o jardim. Percebi que estava deixando dinheiro na mesa. Com a especialização, passei a vender o conceito completo: a arquitetura integrada à natureza. Meu ticket médio por projeto subiu 40% porque agora entrego a obra toda.",
     name: "Cleide Silva",
-    course: "Mba Em Gestão Industrial Farmacêutica",
+    course: "Arquitetura da Paisagem",
     photo: cleideSilva,
     scale: 1,
   },
