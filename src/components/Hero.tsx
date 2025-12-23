@@ -56,14 +56,20 @@ const Hero = () => {
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-6">
-              <div className="flex items-center gap-2">
-                <Award className="h-5 w-5" />
-                <span className="text-sm font-medium">Diploma Reconhecido MEC</span>
+            <div className="flex flex-row gap-4 sm:gap-6">
+              <div className="flex items-center gap-1 sm:gap-2">
+                <Award className="h-4 w-4 sm:h-5 sm:w-5" />
+                <span className="text-xs sm:text-sm font-medium">
+                  <span className="sm:hidden">Diploma MEC</span>
+                  <span className="hidden sm:inline">Diploma Reconhecido MEC</span>
+                </span>
               </div>
-              <div className="flex items-center gap-2">
-                <Users className="h-5 w-5" />
-                <span className="text-sm font-medium">+ 10 mil Alunos Formados</span>
+              <div className="flex items-center gap-1 sm:gap-2">
+                <Users className="h-4 w-4 sm:h-5 sm:w-5" />
+                <span className="text-xs sm:text-sm font-medium">
+                  <span className="sm:hidden">+ 10 Mil Alunos</span>
+                  <span className="hidden sm:inline">+ 10 mil Alunos Formados</span>
+                </span>
               </div>
             </div>
           </div>
