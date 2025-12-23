@@ -4,12 +4,12 @@ import heroBackground from "@/assets/hero-background.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative flex items-center overflow-hidden pt-[72px] pb-8 md:pt-[112px] md:pb-16">
+    <section className="relative flex items-center overflow-hidden pt-[104px] pb-8 md:pt-[112px] md:pb-16">
       <div
-        className="absolute inset-0 bg-cover bg-top md:bg-center bg-no-repeat"
+        className="absolute inset-x-0 bottom-0 top-[104px] bg-cover bg-no-repeat bg-[position:80%_12%] md:top-0 md:bg-center"
         style={{ backgroundImage: `url(${heroBackground})` }}
       />
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-x-0 bottom-0 top-[104px] bg-black/40 md:top-0"></div>
       <div className="absolute bottom-0 left-0 right-0 h-10 md:h-16 lg:h-20">
         <svg
           xmlns="http://www.w3.org/2000/svg"
