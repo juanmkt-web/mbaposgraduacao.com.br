@@ -25,7 +25,7 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 py-6 md:py-12 relative z-10">
-        <div className="flex justify-end mb-12">
+        <div className="flex justify-start mb-12">
           <div className="text-white animate-fade-in max-w-2xl">
             <h1
               className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 sm:mb-6 leading-tight"
