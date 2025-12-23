@@ -1,7 +1,7 @@
 import { Quote } from "lucide-react";
-import gabrielaFernandes from "@/assets/gabriela-fernandes.png";
-import juliaDeJesus from "@/assets/julia-de-jesus.png";
-import mauricioBraga from "@/assets/mauricio-braga.png";
+import jamileAlves from "@/assets/jamile-alves.png";
+import arnaldoAraujo from "@/assets/arnaldo-araujo.png";
+import cleideSilva from "@/assets/cleide-silva.png";
 import { useState, useEffect } from "react";
 
 const testimonials = [
@@ -9,28 +9,28 @@ const testimonials = [
     id: 1,
     quote:
       "Na Engenharia, a teoria da faculdade é uma coisa, o campo é outra. Eu tinha insegurança de assumir projetos maiores. A especialização me deu a firmeza técnica que faltava. Hoje assino meus projetos e laudos sabendo exatamente o que estou fazendo, sem aquele frio na barriga.",
-    name: "Gabriela Fernandes",
+    name: "Jamile Alves",
     course: "Especialização Em Engenharia Elétrica e Suas Técnicas",
-    photo: gabrielaFernandes,
+    photo: jamileAlves,
     scale: 1,
   },
   {
     id: 2,
     quote:
       "O mercado de personal tá lotado, e pra cobrar um valor justo você tem que entregar resultado rápido. O curso me ensinou a montar treinos com ciência de verdade, não 'achismo'. Meus alunos evoluem muito mais e minha agenda, que vivia buracos, agora tá cheia.",
-    name: "Mauricio Braga",
+    name: "Arnaldo de Araújo",
     course: "Personal Training: Metodologia do Treinamento Personalizado",
-    photo: mauricioBraga,
+    photo: arnaldoAraujo,
     scale: 1,
   },
   {
     id: 3,
     quote:
       "Trabalhar em indústria farmacêutica é pressão pura, qualquer erro custa caro. Eu precisava entender melhor as normas e a gestão da fábrica pra subir de cargo. O curso abriu minha visão: hoje consigo resolver problemas na linha de produção que antes me deixavam sem dormir.",
-    name: "Julia de Jesus",
+    name: "Cleide Silva",
     course: "Mba Em Gestão Industrial Farmacêutica",
-    photo: juliaDeJesus,
-    scale: 1.23,
+    photo: cleideSilva,
+    scale: 1,
   },
 ];
 
