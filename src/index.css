@@ -25,7 +25,7 @@ All colors MUST be HSL.
     --secondary-foreground: 0 0% 100%;
     
     /* Accent for benefits section */
-    --cyan-light: 280 70% 55%;
+    --cyan-light: 195 90% 55%;
     --cyan-light-foreground: 0 0% 100%;
     
     /* Dark blue for backgrounds */
@@ -34,16 +34,16 @@ All colors MUST be HSL.
     --muted: 230 20% 96%;
     --muted-foreground: 230 20% 40%;
 
-    /* CTA accent - Magenta vibrante */
-    --accent: 320 85% 55%;
-    --accent-foreground: 0 0% 100%;
+    /* CTA accent - Azul claro vibrante */
+    --accent: 195 95% 50%;
+    --accent-foreground: 220 80% 15%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 230 15% 88%;
     --input: 230 15% 88%;
-    --ring: 260 80% 60%;
+    --ring: 195 90% 55%;
 
     --radius: 0.75rem;
     
@@ -52,7 +52,7 @@ All colors MUST be HSL.
     --gradient-mid: 260 80% 40%;
     --gradient-mid-2: 290 75% 50%;
     --gradient-end: 320 85% 55%;
-    --gradient-light-blue: 280 75% 65%;
+    --gradient-light-blue: 195 90% 55%;
     --gradient-deep-blue: 240 70% 6%;
     
     /* Shadows */
@@ -139,9 +139,9 @@ All colors MUST be HSL.
     background: linear-gradient(135deg, hsl(var(--gradient-start)) 0%, hsl(var(--gradient-mid)) 25%, hsl(var(--gradient-mid-2)) 70%, hsl(var(--gradient-end)) 100%);
   }
   
-  /* Gradient text - purple to magenta */
+  /* Gradient text - blue tones */
   .gradient-text {
-    background: linear-gradient(135deg, hsl(260, 80%, 55%), hsl(320, 85%, 55%));
+    background: linear-gradient(135deg, hsl(230, 85%, 55%), hsl(195, 95%, 50%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -159,7 +159,7 @@ All colors MUST be HSL.
     }
     50% {
       transform: scale(1.05);
-      box-shadow: 0 15px 30px hsla(320, 85%, 55%, 0.5);
+      box-shadow: 0 15px 30px hsla(195, 95%, 50%, 0.5);
     }
     100% {
       transform: scale(1);
