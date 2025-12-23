@@ -65,12 +65,12 @@ const Testimonials = () => {
           />
         </svg>
       </div>
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-12 animate-fade-in text-white">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+      <div className="container mx-auto px-3 sm:px-4 relative z-10">
+        <div className="text-center mb-8 sm:mb-12 animate-fade-in text-white">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">
             CARREIRAS QUE <span className="text-cyan-light">DECOLARAM</span>.
           </h2>
-          <p className="text-lg text-white/90 max-w-3xl mx-auto">
+          <p className="text-sm sm:text-lg text-white/90 max-w-3xl mx-auto">
             Veja o que nossos alunos dizem sobre a experiência Fasul.
           </p>
         </div>
@@ -80,13 +80,13 @@ const Testimonials = () => {
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
-          <div className="glass-effect rounded-3xl p-8 lg:p-12 shadow-2xl animate-fade-in" key={currentTestimonial.id}>
-            <Quote className="h-12 w-12 text-cyan-light mb-6" />
-            <p className="text-xl lg:text-2xl text-white mb-8 leading-relaxed italic font-light">
+          <div className="glass-effect rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-12 shadow-2xl animate-fade-in" key={currentTestimonial.id}>
+            <Quote className="h-8 w-8 sm:h-12 sm:w-12 text-cyan-light mb-4 sm:mb-6" />
+            <p className="text-base sm:text-xl lg:text-2xl text-white mb-5 sm:mb-8 leading-relaxed italic font-light">
               "{currentTestimonial.quote}"
             </p>
-            <div className="flex items-center gap-6 border-t border-white/20 pt-8">
-              <div className="w-20 h-20 rounded-full border-4 border-cyan-light overflow-hidden">
+            <div className="flex items-center gap-4 sm:gap-6 border-t border-white/20 pt-5 sm:pt-8">
+              <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-full border-4 border-cyan-light overflow-hidden">
                 <img
                   src={currentTestimonial.photo}
                   alt={currentTestimonial.name}
@@ -95,8 +95,8 @@ const Testimonials = () => {
                 />
               </div>
               <div className="text-white">
-                <p className="font-bold text-xl">{currentTestimonial.name}</p>
-                <p className="text-sm opacity-90">{currentTestimonial.course}</p>
+                <p className="font-bold text-base sm:text-xl">{currentTestimonial.name}</p>
+                <p className="text-xs sm:text-sm opacity-90">{currentTestimonial.course}</p>
               </div>
             </div>
           </div>
