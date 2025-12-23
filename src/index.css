@@ -561,7 +561,7 @@ All colors MUST be HSL.
 @media (max-width: 767px) {
   .tituloRodape { font-size: 14px; }
   .atxtrodape { font-size: 13px; }
-  .txtrodape, .txtDir, .txtPol { font-size: 12px !important; }
+  .txtrodape, .txtDir, .txtPol { font-size: 11px !important; }
 }
 
 @media (max-width: 576px) {
