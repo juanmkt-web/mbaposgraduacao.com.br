@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="relative flex items-center overflow-hidden pt-[72px] pb-8 md:pt-[112px] md:pb-16">
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-top md:bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBackground})` }}
       />
       <div className="absolute inset-0 bg-black/40"></div>
