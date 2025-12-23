@@ -17,43 +17,43 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 20%;
 
-    /* Brand colors - Coral vibrante */
-    --primary: 12 90% 58%;
+    /* Brand colors - Azul moderno */
+    --primary: 230 85% 55%;
     --primary-foreground: 0 0% 100%;
     
-    --secondary: 12 85% 62%;
+    --secondary: 260 75% 60%;
     --secondary-foreground: 0 0% 100%;
     
-    /* Coral for benefits section */
-    --cyan-light: 12 90% 58%;
+    /* Accent for benefits section */
+    --cyan-light: 280 70% 55%;
     --cyan-light-foreground: 0 0% 100%;
     
-    /* Dark blue for backgrounds - MANTIDO */
-    --dark-blue: 220 60% 25%;
+    /* Dark blue for backgrounds */
+    --dark-blue: 235 65% 12%;
 
-    --muted: 210 20% 96%;
-    --muted-foreground: 218 20% 40%;
+    --muted: 230 20% 96%;
+    --muted-foreground: 230 20% 40%;
 
-    /* CTA accent - Coral vibrante */
-    --accent: 12 90% 58%;
+    /* CTA accent - Magenta vibrante */
+    --accent: 320 85% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 15% 88%;
-    --input: 210 15% 88%;
-    --ring: 12 90% 58%;
+    --border: 230 15% 88%;
+    --input: 230 15% 88%;
+    --ring: 260 80% 60%;
 
     --radius: 0.75rem;
     
-    /* Gradient colors - Roxo profundo > Magenta intenso > Coral */
-    --gradient-start: 270 70% 18%;
-    --gradient-mid: 305 75% 35%;
-    --gradient-mid-2: 340 80% 45%;
-    --gradient-end: 12 85% 55%;
-    --gradient-light-blue: 12 80% 60%;
-    --gradient-deep-blue: 270 65% 12%;
+    /* Gradient colors - Azul profundo > Roxo > Magenta */
+    --gradient-start: 235 70% 8%;
+    --gradient-mid: 260 80% 40%;
+    --gradient-mid-2: 290 75% 50%;
+    --gradient-end: 320 85% 55%;
+    --gradient-light-blue: 280 75% 65%;
+    --gradient-deep-blue: 240 70% 6%;
     
     /* Shadows */
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -139,9 +139,9 @@ All colors MUST be HSL.
     background: linear-gradient(135deg, hsl(var(--gradient-start)) 0%, hsl(var(--gradient-mid)) 25%, hsl(var(--gradient-mid-2)) 70%, hsl(var(--gradient-end)) 100%);
   }
   
-  /* Gradient text - coral tones */
+  /* Gradient text - purple to magenta */
   .gradient-text {
-    background: linear-gradient(135deg, hsl(340, 80%, 45%), hsl(12, 90%, 58%));
+    background: linear-gradient(135deg, hsl(260, 80%, 55%), hsl(320, 85%, 55%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -159,7 +159,7 @@ All colors MUST be HSL.
     }
     50% {
       transform: scale(1.05);
-      box-shadow: 0 15px 30px hsla(12, 90%, 58%, 0.5);
+      box-shadow: 0 15px 30px hsla(320, 85%, 55%, 0.5);
     }
     100% {
       transform: scale(1);
