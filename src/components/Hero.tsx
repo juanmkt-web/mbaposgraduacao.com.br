@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <section className="relative flex items-center overflow-hidden pt-[104px] pb-8 md:pt-[112px] md:pb-16">
       <div
-        className="absolute inset-x-0 bottom-0 top-[104px] bg-cover bg-no-repeat bg-[position:60%_12%] md:bg-[position:80%_12%] md:top-[112px]"
+        className="absolute inset-0 bg-cover bg-no-repeat bg-[position:60%_18%] sm:bg-[position:70%_16%] md:bg-[position:80%_8%] lg:bg-[position:80%_12%]"
         style={{ backgroundImage: `url(${heroBackground})` }}
       />
-      <div className="absolute inset-x-0 bottom-0 top-[104px] bg-black/40 md:top-[112px]"></div>
+      <div className="absolute inset-0 bg-black/40"></div>
       <div className="absolute bottom-0 left-0 right-0 h-10 md:h-16 lg:h-20">
         <svg
           xmlns="http://www.w3.org/2000/svg"
