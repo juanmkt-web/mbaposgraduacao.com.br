@@ -5,7 +5,7 @@ import heroBackground from "@/assets/hero-background.jpg";
 const Hero = () => {
   return (
     <section className="relative flex items-center overflow-hidden pt-[72px] pb-8 md:pt-[112px] md:pb-16">
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBackground})` }}
       />
@@ -33,7 +33,7 @@ const Hero = () => {
                 textShadow: "2px 2px 8px rgba(0, 0, 0, 0.2)",
               }}
             >
-              CONQUISTE SEU ESPAÇO <span className="text-accent"> EM TEMPO RECORDE</span> NO MERCADO.
+              ACELERE SUA CARREIRA E <span className="text-accent"> CONQUISTE O MERCADO</span> EM TEMPO RECORDE.
             </h1>
 
             <p className="text-base sm:text-xl text-white/90 leading-relaxed mb-6 sm:mb-8">
