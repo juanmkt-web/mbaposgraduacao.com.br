@@ -43,7 +43,7 @@ const Benefits = () => {
           <div className="space-y-3 md:space-y-6 animate-fade-in" style={{
           animationDelay: '0.2s'
         }}>
-            {benefits.map((benefit, index) => <div key={index} className="flex items-start gap-3 md:gap-4 animate-fade-in" style={{
+            {benefits.map((benefit, index) => <div key={index} className="flex items-center gap-3 md:gap-4 animate-fade-in" style={{
             animationDelay: `${0.3 + index * 0.1}s`
           }}>
                 <div className="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-lg flex items-center justify-center shadow-lg shadow-cyan-light/30 bg-cyan-light">
