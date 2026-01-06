@@ -18,6 +18,7 @@ const Index = () => {
         <Testimonials />
         <Steps />
         <CTA />
+        <CTA />
       </main>
       <Footer />
     </div>
