@@ -1,15 +1,10 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqItems = [
   {
     question: "A Pós-Graduação é reconhecida e o certificado é válido?",
     answer:
-      "Sim! A FASUL é credenciada pelo MEC com nota máxima (5). Todos os nossos cursos de Pós-Graduação são reconhecidos nacionalmente e o certificado tem validade em todo o território brasileiro, sendo aceito em concursos públicos, progressão de carreira e para fins acadêmicos.",
+      "Sim! A FASUL é credenciada pelo MEC com nota máxima (5). Todos os nossos Cursos de Pós-Graduação são reconhecidos nacionalmente e o certificado tem validade em todo o território brasileiro, sendo aceito em concursos públicos, progressão de carreira e para fins acadêmicos.",
   },
   {
     question: "Quanto tempo leva para concluir a Pós-Graduação?",
@@ -29,7 +24,7 @@ const faqItems = [
   {
     question: "Como funciona o pagamento e quais as formas disponíveis?",
     answer:
-      "Oferecemos diversas formas de pagamento: cartão de crédito (parcelado em até 12x), boleto bancário e PIX. Além disso, temos condições especiais para pagamento à vista e promoções exclusivas para grupos de alunos.",
+      "Oferecemos diversas formas de pagamento: cartão de crédito (parcelado, ou a vista), boleto bancário e PIX.",
   },
 ];
 
@@ -40,12 +35,8 @@ const FAQ = () => {
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="mb-10">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-4">
-              Perguntas frequentes
-            </h2>
-            <p className="text-gray-600 text-lg">
-              Tire suas dúvidas sobre a Pós-Graduação EaD da FASUL
-            </p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-4">Perguntas frequentes</h2>
+            <p className="text-gray-600 text-lg">Tire suas dúvidas sobre a Pós-Graduação EaD da FASUL</p>
           </div>
 
           {/* FAQ Accordion */}
@@ -59,9 +50,7 @@ const FAQ = () => {
                 <AccordionTrigger className="text-left text-[#1E2842] font-medium text-base md:text-lg hover:no-underline py-5">
                   {item.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-gray-600 text-base pb-5">
-                  {item.answer}
-                </AccordionContent>
+                <AccordionContent className="text-gray-600 text-base pb-5">{item.answer}</AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
