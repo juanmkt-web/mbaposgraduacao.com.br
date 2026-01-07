@@ -8,12 +8,12 @@ import paolaRodrigues from "@/assets/paola-rodrigues.avif";
 const professors = [
   {
     name: "Doutora Débora Maria Moreno Luzia",
-    image: deboraLuzia,
+    image: paolaRodrigues,
     lattes: "http://lattes.cnpq.br/",
   },
   {
     name: "Mestre Maurício Ricardo Soares",
-    image: ricardoSoares,
+    image: sergioSilva,
     lattes: "http://lattes.cnpq.br/",
   },
   {
@@ -23,12 +23,12 @@ const professors = [
   },
   {
     name: "Mestre Sérgio Ferreira da Silva",
-    image: sergioSilva,
+    image: ricardoSoares,
     lattes: "http://lattes.cnpq.br/",
   },
   {
     name: "Mestra Paola Marie Vitaca Rodrigues",
-    image: paolaRodrigues,
+    image: deboraLuzia,
     lattes: "http://lattes.cnpq.br/",
   },
 ];
