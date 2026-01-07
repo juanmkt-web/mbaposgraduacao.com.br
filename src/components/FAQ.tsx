@@ -30,7 +30,7 @@ const faqItems = [
 
 const FAQ = () => {
   return (
-    <section className="pt-8 md:pt-12 pb-12 md:pb-16 bg-white">
+    <section className="pt-4 md:pt-6 pb-12 md:pb-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
