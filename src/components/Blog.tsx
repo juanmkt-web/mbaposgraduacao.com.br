@@ -50,7 +50,7 @@ const blogPosts = [
 
 const Blog = () => {
   return (
-    <section className="py-20 bg-[#1E2842]">
+    <section className="pt-10 pb-20 bg-[#1E2842]">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
