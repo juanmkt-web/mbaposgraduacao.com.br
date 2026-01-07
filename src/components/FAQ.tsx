@@ -14,17 +14,12 @@ const faqItems = [
   {
     question: "Quanto tempo leva para concluir a Pós-Graduação?",
     answer:
-      "O tempo de conclusão varia de acordo com o curso escolhido, podendo ser de 6 a 18 meses. A modalidade EaD permite que você estude no seu próprio ritmo, podendo acelerar ou estender o prazo conforme sua disponibilidade.",
+      "Você escolhe o ritmo de estudos e pode concluir de forma rápida, com flexibilidade para estudar quando e onde quiser. Assim você avança sem travar sua rotina de trabalho e família.",
   },
   {
     question: "Como funciona a matrícula e quando posso começar?",
     answer:
-      "A matrícula é 100% online e você pode começar imediatamente após a confirmação do pagamento. Basta acessar nosso portal, escolher o curso desejado, realizar a inscrição e já terá acesso ao conteúdo programático.",
-  },
-  {
-    question: "Qual é a metodologia de ensino da Pós-Graduação EaD?",
-    answer:
-      "Nossa metodologia combina videoaulas gravadas com professores mestres e doutores, materiais didáticos completos, fóruns de discussão e avaliações online. Você tem acesso 24 horas por dia, 7 dias por semana, podendo estudar de qualquer lugar.",
+      "A matrícula é simples e rápida. Você envia seus dados, confirma a inscrição e, após a liberação, já pode iniciar os estudos e acessar a plataforma com suporte ao aluno.",
   },
   {
     question: "É necessário fazer TCC para concluir a Pós-Graduação?",
