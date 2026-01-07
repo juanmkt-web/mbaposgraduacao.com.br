@@ -1,9 +1,9 @@
 import { Eye, MessageSquare, Heart } from "lucide-react";
 
-import blogImage1 from "@/assets/curso-escolar.jpg";
-import blogImage2 from "@/assets/curso-gestao.jpg";
-import blogImage3 from "@/assets/curso-marketing.jpg";
-import blogImage4 from "@/assets/curso-financeiro.jpg";
+import blogImage1 from "@/assets/blog-1.webp";
+import blogImage2 from "@/assets/blog-2.webp";
+import blogImage3 from "@/assets/blog-3.webp";
+import blogImage4 from "@/assets/blog-4.webp";
 
 const blogPosts = [
   {
