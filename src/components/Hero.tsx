@@ -9,7 +9,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-no-repeat bg-[position:88%_18%] sm:bg-[position:78%_16%] md:bg-[position:80%_8%] lg:bg-[position:80%_12%]"
         style={{ backgroundImage: `url(${heroBackground})` }}
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/95 via-[#0f2341]/70 via-50% to-transparent to-70%"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/95 from-0% via-[#0f2341]/60 via-40% to-transparent to-80%"></div>
       <div className="absolute bottom-0 left-0 right-0 h-10 md:h-16 lg:h-20">
         <svg
           xmlns="http://www.w3.org/2000/svg"
