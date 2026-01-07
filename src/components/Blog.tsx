@@ -13,8 +13,9 @@ const blogPosts = [
     readTime: "8 min de leitura",
     title: "Mitos e Verdades sobre o Ensino a Distância da FASUL: Como funciona e suas vantagens para sua carreira?",
     image: blogImage1,
-    views: 0,
+    views: 6821,
     comments: 0,
+    likes: 418,
   },
   {
     id: 2,
@@ -23,8 +24,9 @@ const blogPosts = [
     readTime: "11 min de leitura",
     title: "Guia Completo do Vestibular ao Diploma e Suas Oportunidades de Carreira",
     image: blogImage2,
-    views: 0,
+    views: 7534,
     comments: 0,
+    likes: 502,
   },
   {
     id: 3,
@@ -33,8 +35,9 @@ const blogPosts = [
     readTime: "5 min de leitura",
     title: "Não Estude no Escuro: Por Que Saber QUEM São Seus Professores Define o Valor do Seu Diploma FASUL",
     image: blogImage3,
-    views: 0,
+    views: 4987,
     comments: 0,
+    likes: 311,
   },
   {
     id: 4,
@@ -43,8 +46,9 @@ const blogPosts = [
     readTime: "6 min de leitura",
     title: "A Escolha Inteligente para o Seu Futuro com Nota Máxima no MEC e Preço Fixo no EaD",
     image: blogImage4,
-    views: 0,
+    views: 6210,
     comments: 0,
+    likes: 387,
   },
 ];
 
@@ -96,19 +100,22 @@ const Blog = () => {
                     </h3>
                     
                     {/* Stats */}
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-4 text-gray-300 text-xs">
-                        <span className="flex items-center gap-1">
-                          <Eye className="w-4 h-4" />
-                          {post.views}
-                        </span>
-                        <span className="flex items-center gap-1">
-                          <MessageSquare className="w-4 h-4" />
-                          {post.comments}
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-4 text-white text-xs">
+                          <span className="flex items-center gap-1">
+                            <Eye className="w-4 h-4" />
+                            {post.views}
+                          </span>
+                          <span className="flex items-center gap-1">
+                            <MessageSquare className="w-4 h-4" />
+                            {post.comments}
+                          </span>
+                        </div>
+                        <span className="flex items-center gap-1 text-white text-xs">
+                          <Heart className="w-4 h-4 text-red-400" />
+                          {post.likes}
                         </span>
                       </div>
-                      <Heart className="w-5 h-5 text-red-400 hover:text-red-500 transition-colors" />
-                    </div>
                   </div>
                 </div>
               </div>
