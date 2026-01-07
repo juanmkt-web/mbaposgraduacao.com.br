@@ -16,6 +16,7 @@ const blogPosts = [
     views: 6821,
     comments: 0,
     likes: 418,
+    url: "https://www.fasulmg.com.br/post/mitos-e-verdades-sobre-o-ensino-a-distancia-da-fasul-como-funciona-e-suas-vantagens-para-sua-carreira/",
   },
   {
     id: 2,
@@ -27,6 +28,7 @@ const blogPosts = [
     views: 7534,
     comments: 0,
     likes: 502,
+    url: "https://www.fasulmg.com.br/post/guia-completo-do-vestibular-ao-diploma-e-suas-oportunidades-de-carreira/",
   },
   {
     id: 3,
@@ -38,6 +40,7 @@ const blogPosts = [
     views: 4987,
     comments: 0,
     likes: 311,
+    url: "https://www.fasulmg.com.br/post/nao-estude-no-escuro-por-que-saber-quem-sao-seus-professores-define-o-valor-do-seu-diploma-fasul/",
   },
   {
     id: 4,
@@ -49,6 +52,7 @@ const blogPosts = [
     views: 6210,
     comments: 0,
     likes: 387,
+    url: "https://www.fasulmg.com.br/post/a-escolha-inteligente-para-o-seu-futuro-com-nota-maxima-no-mec-e-preco-fixo-no-ead/",
   },
 ];
 
@@ -69,9 +73,12 @@ const Blog = () => {
         {/* Blog Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {blogPosts.map((post) => (
-            <article
+            <a
               key={post.id}
-              className="group relative rounded-lg overflow-hidden cursor-pointer transition-transform duration-300 hover:scale-105"
+              href={post.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative rounded-lg overflow-hidden cursor-pointer transition-transform duration-300 hover:scale-105 block"
             >
               {/* Background Image */}
               <div className="aspect-[4/5] relative">
@@ -119,7 +126,7 @@ const Blog = () => {
                   </div>
                 </div>
               </div>
-            </article>
+            </a>
           ))}
         </div>
       </div>
