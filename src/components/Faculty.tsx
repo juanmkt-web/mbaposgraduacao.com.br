@@ -1,34 +1,34 @@
 import { ExternalLink } from "lucide-react";
-import amandaCampos from "@/assets/amanda-campos.png";
-import mauricioBraga from "@/assets/mauricio-braga.png";
-import aparecidaOliveira from "@/assets/aparecida-oliveira.png";
-import arnaldoAraujo from "@/assets/arnaldo-araujo.png";
-import marcelaRibeiro from "@/assets/marcela-ribeiro.png";
+import deboraLuzia from "@/assets/debora-luzia.avif";
+import ricardoSoares from "@/assets/ricardo-soares.avif";
+import veraFarias from "@/assets/vera-farias.avif";
+import sergioSilva from "@/assets/sergio-silva.avif";
+import paolaRodrigues from "@/assets/paola-rodrigues.avif";
 
 const professors = [
   {
-    name: "Doutora Amanda Campos",
-    image: amandaCampos,
+    name: "Doutora Débora Maria Moreno Luzia",
+    image: deboraLuzia,
     lattes: "http://lattes.cnpq.br/",
   },
   {
-    name: "Mestre Maurício Braga",
-    image: mauricioBraga,
+    name: "Mestre Maurício Ricardo Soares",
+    image: ricardoSoares,
     lattes: "http://lattes.cnpq.br/",
   },
   {
-    name: "Doutora Aparecida Oliveira",
-    image: aparecidaOliveira,
+    name: "Doutora Vera Lúcia da Silva Farias",
+    image: veraFarias,
     lattes: "http://lattes.cnpq.br/",
   },
   {
-    name: "Mestre Arnaldo Araújo",
-    image: arnaldoAraujo,
+    name: "Mestre Sérgio Ferreira da Silva",
+    image: sergioSilva,
     lattes: "http://lattes.cnpq.br/",
   },
   {
-    name: "Mestra Marcela Ribeiro",
-    image: marcelaRibeiro,
+    name: "Mestra Paola Marie Vitaca Rodrigues",
+    image: paolaRodrigues,
     lattes: "http://lattes.cnpq.br/",
   },
 ];
