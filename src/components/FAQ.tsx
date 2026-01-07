@@ -30,11 +30,11 @@ const faqItems = [
 
 const FAQ = () => {
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="pt-8 md:pt-12 pb-12 md:pb-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
-          <div className="mb-10">
+          <div className="mb-10 text-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-4">Perguntas frequentes</h2>
             <p className="text-gray-600 text-lg">Tire suas dúvidas sobre a Pós-Graduação EaD da FASUL</p>
           </div>
