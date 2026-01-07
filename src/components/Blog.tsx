@@ -84,7 +84,7 @@ const Blog = () => {
                   {/* Author Info */}
                   <div className="text-white">
                     <p className="font-semibold text-sm">{post.author}</p>
-                    <p className="text-xs text-gray-300">
+                    <p className="text-xs text-white/90">
                       {post.date} · {post.readTime}
                     </p>
                   </div>
