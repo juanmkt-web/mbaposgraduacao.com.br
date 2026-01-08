@@ -1,6 +1,6 @@
 import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 import valdireneLima from "@/assets/valdirene-lima.png";
-import penelopeVitoria from "@/assets/penelope-vitoria.png";
+import lwanMarques from "@/assets/lwan-marques.png";
 import gideoniAlves from "@/assets/gideoni-alves.png";
 import { useState, useEffect } from "react";
 
@@ -17,11 +17,11 @@ const testimonials = [
   {
     id: 2,
     quote:
-      "O Curso de Gestão de Marketing tem sido muito bom, com professores preparados e conteúdos relevantes. Também inclui atividades práticas que nos ajudam a nos aprofundar no estudo. Indico a Fasul!! 🥳",
-    name: "Penélope Vitória",
-    photo: penelopeVitoria,
+      "A Fasul com toda certeza é a melhor faculdade onde já estive. Respostas rápidas, ambiente agradável e profissionais competentes.",
+    name: "Lwan B Marques",
+    photo: lwanMarques,
     scale: 1,
-    link: "https://share.google/SYoPpQ5g57AL5aNvr",
+    link: "https://share.google/f1pcT1t03f9NuQe2F",
   },
   {
     id: 3,
