@@ -62,11 +62,10 @@ const Blog = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Blog de Informações
-          </h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">BLOG DE INFORMAÇÕES</h2>
           <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-            Dicas de carreira, tendências de mercado e tudo o que você precisa saber para tomar as melhores decisões para o seu futuro profissional
+            Dicas de carreira, tendências de mercado e tudo o que você precisa saber para tomar as melhores decisões
+            para o seu futuro profissional
           </p>
         </div>
 
@@ -82,14 +81,10 @@ const Blog = () => {
             >
               {/* Background Image */}
               <div className="aspect-[4/5] relative">
-                <img
-                  src={post.image}
-                  alt={post.title}
-                  className="w-full h-full object-cover"
-                />
+                <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
                 {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
-                
+
                 {/* Content */}
                 <div className="absolute inset-0 flex flex-col justify-between p-4">
                   {/* Author Info */}
@@ -102,27 +97,25 @@ const Blog = () => {
 
                   {/* Title and Stats */}
                   <div>
-                    <h3 className="text-white font-semibold text-sm leading-tight mb-4">
-                      {post.title}
-                    </h3>
-                    
+                    <h3 className="text-white font-semibold text-sm leading-tight mb-4">{post.title}</h3>
+
                     {/* Stats */}
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-4 text-white text-xs">
-                          <span className="flex items-center gap-1">
-                            <Eye className="w-4 h-4" />
-                            {post.views}
-                          </span>
-                          <span className="flex items-center gap-1">
-                            <MessageSquare className="w-4 h-4" />
-                            {post.comments}
-                          </span>
-                        </div>
-                        <span className="flex items-center gap-1 text-white text-xs">
-                          <Heart className="w-4 h-4 text-red-400" />
-                          {post.likes}
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-4 text-white text-xs">
+                        <span className="flex items-center gap-1">
+                          <Eye className="w-4 h-4" />
+                          {post.views}
+                        </span>
+                        <span className="flex items-center gap-1">
+                          <MessageSquare className="w-4 h-4" />
+                          {post.comments}
                         </span>
                       </div>
+                      <span className="flex items-center gap-1 text-white text-xs">
+                        <Heart className="w-4 h-4 text-red-400" />
+                        {post.likes}
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
