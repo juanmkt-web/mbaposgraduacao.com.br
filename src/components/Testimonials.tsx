@@ -1,4 +1,4 @@
-import { Quote } from "lucide-react";
+import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 import jamileAlves from "@/assets/jamile-alves.png";
 import arnaldoAraujo from "@/assets/arnaldo-araujo.png";
 import cleideSilva from "@/assets/cleide-silva.png";
@@ -76,10 +76,28 @@ const Testimonials = () => {
         </div>
 
         <div
-          className="max-w-4xl mx-auto"
+          className="max-w-4xl mx-auto relative"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
+          {/* Seta esquerda */}
+          <button
+            onClick={() => setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length)}
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-6 lg:-translate-x-12 z-20 p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300 text-white/70 hover:text-white"
+            aria-label="Depoimento anterior"
+          >
+            <ChevronLeft className="h-5 w-5 sm:h-6 sm:w-6" />
+          </button>
+
+          {/* Seta direita */}
+          <button
+            onClick={() => setCurrentIndex((prev) => (prev + 1) % testimonials.length)}
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-6 lg:translate-x-12 z-20 p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300 text-white/70 hover:text-white"
+            aria-label="Próximo depoimento"
+          >
+            <ChevronRight className="h-5 w-5 sm:h-6 sm:w-6" />
+          </button>
+
           <div className="glass-effect rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-12 shadow-2xl animate-fade-in" key={currentTestimonial.id}>
             <Quote className="h-8 w-8 sm:h-12 sm:w-12 text-cyan-light mb-4 sm:mb-6" />
             <p className="text-base sm:text-xl lg:text-2xl text-white mb-5 sm:mb-8 leading-relaxed italic font-light">
