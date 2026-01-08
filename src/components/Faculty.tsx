@@ -35,7 +35,13 @@ const professors = [
 
 const Faculty = () => {
   return (
-    <section className="pt-12 md:pt-24 pb-16 md:pb-32 relative overflow-hidden" style={{ background: 'linear-gradient(45deg, hsl(213 97% 55%) 0%, hsl(230 80% 50%) 30%, hsl(215 70% 40%) 75%, hsl(230 75% 10%) 100%)' }}>
+    <section
+      className="pt-12 md:pt-24 pb-16 md:pb-32 relative overflow-hidden"
+      style={{
+        background:
+          "linear-gradient(45deg, hsl(213 97% 55%) 0%, hsl(230 80% 50%) 30%, hsl(215 70% 40%) 75%, hsl(230 75% 10%) 100%)",
+      }}
+    >
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="absolute top-0 left-0 right-0 h-10 md:h-16 lg:h-20 rotate-180">
         <svg
@@ -55,7 +61,7 @@ const Faculty = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8 md:mb-12">
             <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6">
-              Corpo Docente de Excelência
+              CORPO DOCENTE DE EXCELÊNCIA
             </h2>
             <p className="text-white/80 text-sm md:text-lg max-w-4xl mx-auto leading-relaxed">
               Nosso corpo docente é formado por professores mestres e doutores, com experiência prática e atuação
