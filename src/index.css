@@ -159,7 +159,7 @@ All colors MUST be HSL.
     }
     50% {
       transform: scale(1.05);
-      box-shadow: 0 15px 30px hsla(210, 100%, 55%, 0.5);
+      box-shadow: 0 15px 30px hsla(35, 95%, 55%, 0.5);
     }
     100% {
       transform: scale(1);
