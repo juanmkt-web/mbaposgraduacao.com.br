@@ -147,12 +147,32 @@ All colors MUST be HSL.
     background-clip: text;
   }
   
-  /* Pulse animation for CTA */
+  /* Pulse animation for CTA - Blue (Hero) */
   .animate-pulse-cta {
     animation: pulseCTA 2s infinite;
   }
   
   @keyframes pulseCTA {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      transform: scale(1.05);
+      box-shadow: 0 15px 30px hsla(210, 100%, 55%, 0.5);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  /* Pulse animation for CTA - Yellow (Footer) */
+  .animate-pulse-cta-yellow {
+    animation: pulseCTAYellow 2s infinite;
+  }
+  
+  @keyframes pulseCTAYellow {
     0% {
       transform: scale(1);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
