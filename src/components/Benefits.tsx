@@ -33,7 +33,7 @@ const Benefits = () => {
               "radial-gradient(ellipse at 12% 88%, rgba(12, 96, 124, .65) 0, rgba(12, 96, 124, .25) 32%, rgba(4, 16, 41, 0) 60%), radial-gradient(ellipse at 94% 20%, rgba(103, 41, 166, .65) 0, rgba(103, 41, 166, .25) 32%, rgba(4, 16, 41, 0) 56%), linear-gradient(180deg, #050d21 0, #040b1a 55%, #020711 100%)",
           }}
         >
-          <div className="px-6 py-8 md:px-12 lg:px-16 md:py-16 relative z-10">
+          <div className="px-8 py-8 md:px-16 lg:px-20 md:py-16 relative z-10">
             <div className="grid lg:grid-cols-2 gap-6 md:gap-12 items-center">
               {/* Left side - Main Title */}
               <div className="animate-fade-in">
