@@ -71,7 +71,13 @@ const Faculty = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
             {professors.map((professor, index) => (
-              <div key={index} className="flex flex-col items-center text-center group">
+              <a
+                key={index}
+                href={professor.lattes}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center text-center group cursor-pointer"
+              >
                 <div className="relative mb-3 md:mb-4 overflow-hidden rounded-lg">
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
                   <img
@@ -80,19 +86,14 @@ const Faculty = () => {
                     className="w-full h-40 md:h-56 lg:h-64 object-cover object-top rounded-lg transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>
-                <h3 className="text-white font-semibold text-sm md:text-base lg:text-lg mb-2 leading-tight">
+                <h3 className="text-white font-semibold text-sm md:text-base lg:text-lg mb-2 leading-tight group-hover:text-accent transition-colors">
                   {professor.name}
                 </h3>
-                <a
-                  href={professor.lattes}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-accent hover:text-accent/80 text-xs md:text-sm font-medium transition-colors underline underline-offset-2"
-                >
+                <span className="flex items-center gap-1 text-accent group-hover:text-accent/80 text-xs md:text-sm font-medium transition-colors underline underline-offset-2">
                   <ExternalLink className="h-3 w-3 md:h-4 md:w-4" />
                   Currículo Lattes
-                </a>
-              </div>
+                </span>
+              </a>
             ))}
           </div>
         </div>
