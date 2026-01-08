@@ -62,7 +62,7 @@ const CTA = () => {
               <h2 className="text-xl md:text-3xl lg:text-5xl font-bold mb-3 md:mb-6">
                 PROMOÇÃO POR TEMPO LIMITADO:
                 <br />
-                COMPRE UMA PÓS E LEVE <span className="text-accent">+3 GRÁTIS</span>.
+                COMPRE UMA PÓS E LEVE <span style={{ color: 'hsl(35, 95%, 55%)' }}>+3 GRÁTIS</span>.
               </h2>
             </div>
 
