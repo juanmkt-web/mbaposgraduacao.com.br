@@ -1,36 +1,39 @@
 import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
-import jamileAlves from "@/assets/jamile-alves.png";
-import arnaldoAraujo from "@/assets/arnaldo-araujo.png";
-import cleideSilva from "@/assets/cleide-silva.png";
+import valdireneLima from "@/assets/valdirene-lima.png";
+import penelopeVitoria from "@/assets/penelope-vitoria.png";
+import gideoniAlves from "@/assets/gideoni-alves.png";
 import { useState, useEffect } from "react";
 
 const testimonials = [
   {
     id: 1,
     quote:
-      "Na faculdade a gente vê muita teoria, mas quando chega um paciente pós-operado sentindo dor, bate o medo de mexer. Eu me sentia insegura. A especialização em Trauma me deu a 'mão firme' e o raciocínio clínico que faltava. Hoje recupero pacientes complexos na metade do tempo e cobro o dobro pela consulta.",
-    name: "Jamile Alves",
-    course: "Fisioterapia em Ortopedia e Traumatologia",
-    photo: jamileAlves,
+      "Faculdade excelente. Atendimento da secretaria nota 1000! Suporte dos tutores e coordenação incrível, sempre prontos para prestar um atendimento diferenciado...essa eu indico 📚🎓",
+    name: "Valdirene Lima",
+    course: "Aluna Fasul",
+    photo: valdireneLima,
     scale: 1,
+    link: "https://share.google/IRVxJgsCFPx3ZOyRA",
   },
   {
     id: 2,
     quote:
-      "Eu era um bom programador, mas meus códigos viravam uma bagunça difícil de manter depois de um tempo. Eu vivia corrigindo bugs antigos. O curso de Engenharia de Software mudou minha mentalidade. Aprendi arquitetura e padrões de projeto de verdade. Hoje não apenas escrevo código, eu desenho soluções escaláveis e fui promovido a Tech Lead.",
-    name: "Arnaldo de Araújo",
-    course: "Especialização em Engenharia de Software",
-    photo: arnaldoAraujo,
+      "O Curso de Gestão de Marketing tem sido muito bom, com professores preparados e conteúdos relevantes. Também inclui atividades práticas que nos ajudam a nos aprofundar no estudo. Indico a Fasul!! 🥳",
+    name: "Penélope Vitória",
+    course: "Gestão de Marketing",
+    photo: penelopeVitoria,
     scale: 1,
+    link: "https://share.google/SYoPpQ5g57AL5aNvr",
   },
   {
     id: 3,
     quote:
-      "Eu entregava o projeto da casa, mas perdia dinheiro porque o cliente contratava outra pessoa para fazer o jardim. Percebi que estava deixando dinheiro na mesa. Com a especialização, passei a vender o conceito completo: a arquitetura integrada à natureza. Meu ticket médio por projeto subiu 40% porque agora entrego a obra toda.",
-    name: "Cleide Silva",
-    course: "Arquitetura da Paisagem",
-    photo: cleideSilva,
+      "Depois de pesquisar muito, encontrei a Fasul Educacional que me atende em tudo que preciso para estudar online, suporte, conteúdo de qualidade máxima no MEC, é melhor faculdade hoje!!",
+    name: "Gideoni Alves",
+    course: "Aluno Fasul",
+    photo: gideoniAlves,
     scale: 1,
+    link: "https://share.google/geVcYbF7ptIgNtpX0",
   },
 ];
 
@@ -98,7 +101,13 @@ const Testimonials = () => {
             <ChevronRight className="h-5 w-5 sm:h-6 sm:w-6" />
           </button>
 
-          <div className="glass-effect rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-12 shadow-2xl animate-fade-in" key={currentTestimonial.id}>
+          <a 
+            href={currentTestimonial.link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="glass-effect rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-12 shadow-2xl animate-fade-in block cursor-pointer hover:scale-[1.02] transition-transform duration-300" 
+            key={currentTestimonial.id}
+          >
             <Quote className="h-8 w-8 sm:h-12 sm:w-12 text-cyan-light mb-4 sm:mb-6" />
             <p className="text-base sm:text-xl lg:text-2xl text-white mb-5 sm:mb-8 leading-relaxed italic font-light">
               "{currentTestimonial.quote}"
@@ -117,7 +126,7 @@ const Testimonials = () => {
                 <p className="text-xs sm:text-sm opacity-90">{currentTestimonial.course}</p>
               </div>
             </div>
-          </div>
+          </a>
 
           <div className="flex justify-center gap-2 mt-6">
             {testimonials.map((_, index) => (
