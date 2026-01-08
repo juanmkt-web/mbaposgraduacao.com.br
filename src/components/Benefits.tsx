@@ -20,7 +20,12 @@ const benefits = [{
 const Benefits = () => {
   return <section className="py-12 md:py-24 bg-white">
       <div className="container mx-auto px-4">
-        <div className="relative overflow-hidden rounded-2xl md:rounded-3xl shadow-2xl bg-[#1e2842]">
+        <div 
+          className="relative overflow-hidden rounded-2xl md:rounded-3xl shadow-2xl"
+          style={{
+            backgroundImage: 'radial-gradient(ellipse at 12% 88%, rgba(12, 96, 124, .65) 0, rgba(12, 96, 124, .25) 32%, rgba(4, 16, 41, 0) 60%), radial-gradient(ellipse at 94% 20%, rgba(103, 41, 166, .65) 0, rgba(103, 41, 166, .25) 32%, rgba(4, 16, 41, 0) 56%), linear-gradient(180deg, #050d21 0, #040b1a 55%, #020711 100%)'
+          }}
+        >
           
           <div className="px-4 py-8 md:px-8 md:py-16 relative z-10">
         <div className="grid lg:grid-cols-2 gap-6 md:gap-12 items-center">
