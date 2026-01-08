@@ -112,7 +112,7 @@ const Testimonials = () => {
             <p className="text-base sm:text-xl lg:text-2xl text-white mb-5 sm:mb-8 leading-relaxed italic font-light">
               "{currentTestimonial.quote}"
             </p>
-            <div className="flex flex-col items-center gap-4 border-t border-white/20 pt-5 sm:pt-8">
+            <div className="flex items-center gap-4 sm:gap-6 border-t border-white/20 pt-5 sm:pt-8">
               <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-full border-4 border-cyan-light overflow-hidden">
                 <img
                   src={currentTestimonial.photo}
@@ -121,7 +121,10 @@ const Testimonials = () => {
                   style={{ transform: `scale(${currentTestimonial.scale})` }}
                 />
               </div>
-              <p className="text-white font-bold text-base sm:text-xl">{currentTestimonial.name}</p>
+              <div className="text-white">
+                <p className="font-bold text-base sm:text-xl">{currentTestimonial.name}</p>
+                <p className="text-xs sm:text-sm opacity-90">{currentTestimonial.course}</p>
+              </div>
             </div>
           </a>
 
