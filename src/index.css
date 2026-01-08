@@ -288,7 +288,7 @@ All colors MUST be HSL.
 .footer-contact {
   padding: 64px 24px 45px;
   background-color: #041029;
-  background-image: radial-gradient(ellipse at 12% 88%, rgba(12, 96, 124, .65) 0, rgba(12, 96, 124, .25) 32%, rgba(4, 16, 41, 0) 60%), radial-gradient(ellipse at 94% 20%, rgba(103, 41, 166, .65) 0, rgba(103, 41, 166, .25) 32%, rgba(4, 16, 41, 0) 56%), linear-gradient(180deg, #050d21 0, #040b1a 55%, #020711 100%);
+  background-image: radial-gradient(ellipse at 12% 88%, rgba(7, 55, 75, .65) 0, rgba(7, 55, 75, .25) 32%, rgba(4, 16, 41, 0) 60%), radial-gradient(ellipse at 94% 20%, rgba(103, 41, 166, .65) 0, rgba(103, 41, 166, .25) 32%, rgba(4, 16, 41, 0) 56%), linear-gradient(180deg, #050d21 0, #040b1a 55%, #020711 100%);
   background-repeat: no-repeat;
   background-size: 150% 150%, 130% 130%, cover;
   background-position: left bottom, right top, center;
