@@ -14,14 +14,16 @@ const Header = () => {
         </div>
 
         <nav className="hidden md:flex items-center gap-10">
-          <a href="#cursos" className="text-base font-medium text-white hover:scale-110 transition-all duration-300">
+          <a href="https://www.fasuleducacional.edu.br" target="_blank" rel="noopener noreferrer" className="text-base font-medium text-white hover:scale-110 transition-all duration-300">
             Cursos
           </a>
-          <a href="#sobre" className="text-base font-medium text-white hover:scale-110 transition-all duration-300">
+          <a href="https://www.fasuleducacional.edu.br" target="_blank" rel="noopener noreferrer" className="text-base font-medium text-white hover:scale-110 transition-all duration-300">
             Como Funciona
           </a>
           <a
-            href="#depoimentos"
+            href="https://www.fasuleducacional.edu.br"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-base font-medium text-white hover:scale-110 transition-all duration-300"
           >
             Alunos
@@ -62,21 +64,27 @@ const Header = () => {
         </div>
         <nav className="px-5 py-7 flex flex-col gap-3">
           <a
-            href="#cursos"
+            href="https://www.fasuleducacional.edu.br"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-lg font-medium text-white py-3.5 border-b border-white/10"
             onClick={() => setIsMenuOpen(false)}
           >
             Cursos
           </a>
           <a
-            href="#sobre"
+            href="https://www.fasuleducacional.edu.br"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-lg font-medium text-white py-3.5 border-b border-white/10"
             onClick={() => setIsMenuOpen(false)}
           >
             Como Funciona
           </a>
           <a
-            href="#depoimentos"
+            href="https://www.fasuleducacional.edu.br"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-lg font-medium text-white py-3.5 border-b border-white/10"
             onClick={() => setIsMenuOpen(false)}
           >
