@@ -86,7 +86,7 @@ const Faculty = () => {
                     className="w-full h-40 md:h-56 lg:h-64 object-cover object-top rounded-lg transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>
-                <h3 className="text-white font-semibold text-sm md:text-base lg:text-lg mb-1 leading-none transition-transform duration-300 group-hover:scale-105">
+                <h3 className="text-white font-semibold text-sm md:text-base lg:text-lg mb-1 !leading-[1.15] transition-transform duration-300 group-hover:scale-105">
                   {professor.name}
                 </h3>
                 <span className="flex items-center gap-1 text-accent group-hover:text-accent/80 text-xs md:text-sm font-medium transition-colors underline underline-offset-2">
