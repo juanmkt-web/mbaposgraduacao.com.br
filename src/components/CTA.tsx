@@ -104,8 +104,8 @@ const CTA = () => {
             <a href="https://www.fasuleducacional.edu.br/posgraduacao/cursos" target="_blank" rel="noopener noreferrer">
               <Button
                 size="lg"
-                className="font-bold text-sm md:text-xl px-6 md:px-12 py-5 md:py-8 rounded-full shadow-2xl animate-pulse-cta-yellow mb-4 md:mb-8 w-full md:w-auto max-w-full whitespace-normal text-white hover:opacity-90"
-                style={{ backgroundColor: 'hsl(45, 95%, 55%)' }}
+                className="font-bold text-sm md:text-xl px-6 md:px-12 py-5 md:py-8 rounded-full shadow-2xl animate-pulse-cta-yellow mb-4 md:mb-8 w-full md:w-auto max-w-full whitespace-normal hover:opacity-90"
+                style={{ backgroundColor: 'hsl(45, 95%, 55%)', color: '#1E2842' }}
               >
                 QUERO ACELERAR MINHA CARREIRA AGORA!{" "}
                 <ArrowRight className="ml-2 md:ml-3 h-5 w-5 md:h-6 md:w-6 flex-shrink-0" />
