@@ -35,7 +35,7 @@ const FAQ = () => {
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="mb-10 text-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-4">Perguntas frequentes</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-4">PERGUNTAS FREQUENTES/h2>
             <p className="text-gray-600 text-lg">Tire suas dúvidas sobre a Pós-Graduação EaD da FASUL</p>
           </div>
 
