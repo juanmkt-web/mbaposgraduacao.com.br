@@ -47,11 +47,11 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
     
-    /* Gradient colors - Azul escuro > Azul > Azul ciano */
+    /* Gradient colors - Azul escuro > Azul > Azul elétrico */
     --gradient-start: 230 75% 10%;
     --gradient-mid: 215 70% 40%;
     --gradient-mid-2: 230 80% 50%;
-    --gradient-end: 192 79% 16%;
+    --gradient-end: 213 97% 55%;
     --gradient-light-blue: 210 100% 60%;
     --gradient-deep-blue: 230 80% 8%;
     
