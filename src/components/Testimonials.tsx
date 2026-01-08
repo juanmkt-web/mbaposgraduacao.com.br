@@ -10,7 +10,6 @@ const testimonials = [
     quote:
       "Faculdade excelente. Atendimento da secretaria nota 1000! Suporte dos tutores e coordenação incrível, sempre prontos para prestar um atendimento diferenciado...essa eu indico 📚🎓",
     name: "Valdirene Lima",
-    course: "Aluna Fasul",
     photo: valdireneLima,
     scale: 1,
     link: "https://share.google/IRVxJgsCFPx3ZOyRA",
@@ -20,7 +19,6 @@ const testimonials = [
     quote:
       "O Curso de Gestão de Marketing tem sido muito bom, com professores preparados e conteúdos relevantes. Também inclui atividades práticas que nos ajudam a nos aprofundar no estudo. Indico a Fasul!! 🥳",
     name: "Penélope Vitória",
-    course: "Gestão de Marketing",
     photo: penelopeVitoria,
     scale: 1,
     link: "https://share.google/SYoPpQ5g57AL5aNvr",
@@ -30,7 +28,6 @@ const testimonials = [
     quote:
       "Depois de pesquisar muito, encontrei a Fasul Educacional que me atende em tudo que preciso para estudar online, suporte, conteúdo de qualidade máxima no MEC, é melhor faculdade hoje!!",
     name: "Gideoni Alves",
-    course: "Aluno Fasul",
     photo: gideoniAlves,
     scale: 1,
     link: "https://share.google/geVcYbF7ptIgNtpX0",
@@ -113,7 +110,7 @@ const Testimonials = () => {
               "{currentTestimonial.quote}"
             </p>
             <div className="flex items-center gap-4 sm:gap-6 border-t border-white/20 pt-5 sm:pt-8">
-              <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-full border-4 border-cyan-light overflow-hidden">
+              <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-full border-4 border-cyan-light overflow-hidden flex-shrink-0">
                 <img
                   src={currentTestimonial.photo}
                   alt={currentTestimonial.name}
@@ -121,10 +118,7 @@ const Testimonials = () => {
                   style={{ transform: `scale(${currentTestimonial.scale})` }}
                 />
               </div>
-              <div className="text-white">
-                <p className="font-bold text-base sm:text-xl">{currentTestimonial.name}</p>
-                <p className="text-xs sm:text-sm opacity-90">{currentTestimonial.course}</p>
-              </div>
+              <p className="font-bold text-base sm:text-xl text-white">{currentTestimonial.name}</p>
             </div>
           </a>
 
