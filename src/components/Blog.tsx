@@ -70,7 +70,7 @@ const Blog = () => {
         </div>
 
         {/* Blog Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
           {blogPosts.map((post) => (
             <a
               key={post.id}
@@ -80,7 +80,7 @@ const Blog = () => {
               className="group relative rounded-lg overflow-hidden cursor-pointer transition-transform duration-300 hover:scale-105 block"
             >
               {/* Background Image */}
-              <div className="aspect-[4/5] relative">
+              <div className="aspect-[3/4] md:aspect-[4/5] relative">
                 <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
                 {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
