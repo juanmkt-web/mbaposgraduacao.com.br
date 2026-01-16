@@ -1,34 +1,34 @@
 import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
-import valdireneLima from "@/assets/valdirene-lima.png";
-import lwanMarques from "@/assets/lwan-marques.png";
-import gideoniAlves from "@/assets/gideoni-alves.png";
+import jamileAlves from "@/assets/jamile-alves.png";
+import arnaldoAraujo from "@/assets/arnaldo-araujo.png";
+import cleideSilva from "@/assets/cleide-silva.png";
 import { useState, useEffect } from "react";
 
 const testimonials = [
   {
     id: 1,
     quote:
-      "Faculdade excelente. Atendimento da secretaria nota 1000! Suporte dos tutores e coordenação incrível, sempre prontos para prestar um atendimento diferenciado...essa eu indico 📚🎓",
-    name: "Valdirene Lima",
-    photo: valdireneLima,
+      "A Fasul me proporcionou uma experiência incrível! O suporte dos tutores é excelente e o conteúdo é muito atualizado. Recomendo demais!",
+    name: "Jamile Alves",
+    photo: jamileAlves,
     scale: 1,
     link: "https://share.google/IRVxJgsCFPx3ZOyRA",
   },
   {
     id: 2,
     quote:
-      "A Fasul com toda certeza é a melhor faculdade onde já estive. Respostas rápidas, ambiente agradável e profissionais competentes.",
-    name: "Lwan B Marques",
-    photo: lwanMarques,
+      "Escolhi a Fasul pela flexibilidade e qualidade. Consegui conciliar trabalho e estudos perfeitamente. A melhor decisão que tomei!",
+    name: "Arnaldo de Araújo",
+    photo: arnaldoAraujo,
     scale: 1,
     link: "https://share.google/f1pcT1t03f9NuQe2F",
   },
   {
     id: 3,
     quote:
-      "Depois de pesquisar muito, encontrei a Fasul Educacional que me atende em tudo que preciso para estudar online, suporte, conteúdo de qualidade máxima no MEC, é melhor faculdade hoje!!",
-    name: "Gideoni Alves",
-    photo: gideoniAlves,
+      "Profissionais incríveis e metodologia de ensino muito eficiente. A Fasul superou todas as minhas expectativas!",
+    name: "Cleide Silva",
+    photo: cleideSilva,
     scale: 1,
     link: "https://share.google/geVcYbF7ptIgNtpX0",
   },
