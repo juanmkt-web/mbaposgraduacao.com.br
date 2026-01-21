@@ -328,8 +328,8 @@ const Footer = () => {
       </section>
 
       {/* Copyright Bar */}
-      <div className="blue-background">
-        <div className="footer-container flex flex-row justify-between items-center py-2 sm:py-4">
+      <div className="blue-background copyright-bar">
+        <div className="footer-container flex flex-row justify-between items-center py-1.5 sm:py-2.5">
           <span className="txtDir text-left">COPYRIGHT © 1997-2025 - FASUL. TODOS OS DIREITOS RESERVADOS.</span>
           <a className="txtPol text-right" href="https://www.fasuleducacional.edu.br/termos-de-uso" title="Política de privacidade">Política de privacidade</a>
         </div>
