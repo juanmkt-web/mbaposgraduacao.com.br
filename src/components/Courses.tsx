@@ -55,7 +55,7 @@ const Courses = () => {
         <div className="text-center mb-8 md:mb-16 text-white animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">PÓS EAD POR ÁREAS</h2>
           <p className="text-lg text-white/90 max-w-4xl mx-auto leading-relaxed">
-            Encontre a especialização ideal explorando trilhas criadas para cada área de atuação. Conheça os cursos que
+            Encontre a especialização ideal explorando trilhas criadas para cada área de atuação. Conheça os Cursos que
             combinam com os seus objetivos e avance de forma estratégica.
           </p>
         </div>
