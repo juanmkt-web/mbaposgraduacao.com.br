@@ -64,7 +64,7 @@ const Faculty = () => {
               CORPO DOCENTE DE EXCELÊNCIA
             </h2>
             <p className="text-white/80 text-sm md:text-lg max-w-4xl mx-auto leading-relaxed">
-              Nosso corpo docente é formado por professores mestres e doutores, com experiência prática e atuação
+              Nosso corpo docente é formado por Professores Mestres e Doutores, com experiência prática e atuação
               acadêmica, garantindo ensino de qualidade, orientação completa e aprendizado aplicado à sua carreira.
             </p>
           </div>
