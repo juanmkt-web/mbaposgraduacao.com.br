@@ -24,11 +24,11 @@ const Hero = () => {
         </svg>
       </div>
 
-      <div className="container mx-auto px-4 py-6 md:py-12 relative z-10">
+      <div className="container mx-auto px-4 py-4 md:py-12 relative z-10">
         <div className="max-w-2xl">
           <div className="text-white animate-fade-in">
             <h1
-              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 sm:mb-6 leading-tight"
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 sm:mb-6 leading-tight"
               style={{
                 textShadow: "2px 2px 8px rgba(0, 0, 0, 0.2)",
               }}
@@ -36,12 +36,12 @@ const Hero = () => {
               ACELERE SUA CARREIRA E <span className="text-accent"> CONQUISTE O MERCADO</span> EM TEMPO RECORDE.
             </h1>
 
-            <p className="text-base sm:text-xl text-white/90 leading-relaxed mb-6 sm:mb-8">
+            <p className="text-base sm:text-xl text-white/90 leading-relaxed mb-4 sm:mb-8">
               Chega de perder tempo com teorias longas. Nossa metodologia foca no que realmente importa para você
               crescer e ser notado rapidamente pelas empresas.
             </p>
 
-            <div className="mb-6 sm:mb-8">
+            <div className="mb-4 sm:mb-8">
               <a
                 href="https://www.fasuleducacional.edu.br/posgraduacao/cursos"
                 target="_blank"

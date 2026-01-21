@@ -37,7 +37,7 @@ const areas = [
 ];
 const Courses = () => {
   return (
-    <section id="cursos" className="pb-24 gradient-animated relative">
+    <section id="cursos" className="pb-12 md:pb-24 gradient-animated relative">
       <div className="absolute top-0 left-0 right-0 h-10 md:h-16 lg:h-20">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -51,8 +51,8 @@ const Courses = () => {
           />
         </svg>
       </div>
-      <div className="container mx-auto px-4 relative z-10 pt-16">
-        <div className="text-center mb-16 text-white animate-fade-in">
+      <div className="container mx-auto px-4 relative z-10 pt-8 md:pt-16">
+        <div className="text-center mb-8 md:mb-16 text-white animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">PÓS EAD POR ÁREAS</h2>
           <p className="text-lg text-white/90 max-w-4xl mx-auto leading-relaxed">
             Encontre a especialização ideal explorando trilhas criadas para cada área de atuação. Conheça os cursos que
@@ -60,7 +60,7 @@ const Courses = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-4 md:gap-6 max-w-7xl mx-auto">
           {areas.map((area, index) => (
             <a
               key={index}

@@ -20,10 +20,10 @@ const steps = [
 
 const Steps = () => {
   return (
-    <section id="sobre" className="py-12 md:py-24 bg-background">
+    <section id="sobre" className="py-8 md:py-24 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-8 md:mb-16 animate-fade-in">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4">
+        <div className="text-center mb-5 md:mb-16 animate-fade-in">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4">
             TRANSFORME SUA CARREIRA EM <span className="gradient-text">3 PASSOS SIMPLES</span>.
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -31,10 +31,10 @@ const Steps = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 md:gap-12 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-4 md:gap-12 max-w-5xl mx-auto">
           {steps.map((step, index) => (
             <div key={index} className="text-center animate-fade-in" style={{ animationDelay: `${index * 0.2}s` }}>
-              <div className="relative mb-4 md:mb-8">
+              <div className="relative mb-3 md:mb-8">
                 <div className="w-24 h-24 md:w-36 md:h-36 gradient-animated rounded-full flex items-center justify-center mx-auto shadow-2xl hover:scale-110 transition-transform duration-300 relative z-10">
                   <step.icon className="h-10 w-10 md:h-16 md:w-16 text-white" strokeWidth={2.5} />
                   <div className="absolute -top-3 -left-3 md:-top-5 md:-left-5 w-10 h-10 md:w-14 md:h-14 bg-accent rounded-full flex items-center justify-center text-white font-bold text-lg md:text-2xl border-2 md:border-4 border-white shadow-xl z-10">
@@ -45,7 +45,7 @@ const Steps = () => {
                   <div className="hidden md:block absolute top-1/2 left-[60%] w-full h-0.5 bg-gradient-to-r from-primary to-primary/20 z-0"></div>
                 )}
               </div>
-              <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-4">{step.title}</h3>
+              <h3 className="text-xl md:text-2xl font-bold mb-1 md:mb-4">{step.title}</h3>
               <p className="text-sm md:text-base text-muted-foreground leading-relaxed">{step.description}</p>
             </div>
           ))}
