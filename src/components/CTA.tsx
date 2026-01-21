@@ -112,14 +112,14 @@ const CTA = () => {
               </Button>
             </a>
 
-            <div className="flex flex-row items-center justify-center gap-3 md:gap-6 text-xs md:text-sm text-white mt-3 md:mt-8 flex-wrap">
+            <div className="flex flex-row items-center justify-center gap-2 md:gap-6 text-[10px] md:text-sm text-white mt-3 md:mt-8 flex-nowrap">
               <div className="flex items-center gap-1 md:gap-2">
-                <CheckCircle2 className="h-3 w-3 md:h-5 md:w-5" />
-                <span>Sem mensalidades caras</span>
+                <CheckCircle2 className="h-2.5 w-2.5 md:h-5 md:w-5 flex-shrink-0" />
+                <span className="whitespace-nowrap">Sem mensalidades caras</span>
               </div>
               <div className="flex items-center gap-1 md:gap-2">
-                <CheckCircle2 className="h-3 w-3 md:h-5 md:w-5" />
-                <span>Pagamento flexível para seu bolso</span>
+                <CheckCircle2 className="h-2.5 w-2.5 md:h-5 md:w-5 flex-shrink-0" />
+                <span className="whitespace-nowrap">Pagamento flexível para seu bolso</span>
               </div>
             </div>
           </div>
