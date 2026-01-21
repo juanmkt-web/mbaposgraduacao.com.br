@@ -251,6 +251,10 @@ All colors MUST be HSL.
   padding: 15px !important;
 }
 
+.blue-background.copyright-bar {
+  padding: 10px !important;
+}
+
 /* Tipografia */
 .tituloRodape {
   font-weight: 700;
