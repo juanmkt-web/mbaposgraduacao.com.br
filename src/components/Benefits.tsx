@@ -33,11 +33,11 @@ const Benefits = () => {
               "radial-gradient(ellipse at 12% 88%, rgba(12, 96, 124, .65) 0, rgba(12, 96, 124, .25) 32%, rgba(4, 16, 41, 0) 60%), radial-gradient(ellipse at 94% 20%, rgba(103, 41, 166, .65) 0, rgba(103, 41, 166, .25) 32%, rgba(4, 16, 41, 0) 56%), linear-gradient(180deg, #050d21 0, #040b1a 55%, #020711 100%)",
           }}
         >
-          <div className="px-10 py-8 md:px-20 lg:px-28 md:py-16 relative z-10">
-            <div className="grid lg:grid-cols-2 gap-6 md:gap-12 items-center">
+          <div className="px-6 py-6 md:px-20 lg:px-28 md:py-16 relative z-10">
+            <div className="grid lg:grid-cols-2 gap-4 md:gap-12 items-center">
               {/* Left side - Main Title */}
               <div className="animate-fade-in">
-                <h2 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white mb-3 md:mb-6 leading-tight">
+                <h2 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white mb-2 md:mb-6 leading-tight">
                   A PÓS <span className="text-cyan-light">MAIS RÁPIDA</span>
                   <br />
                   DO MERCADO!
@@ -51,7 +51,7 @@ const Benefits = () => {
 
               {/* Right side - Benefits List */}
               <div
-                className="space-y-3 md:space-y-6 animate-fade-in"
+                className="space-y-2 md:space-y-6 animate-fade-in"
                 style={{
                   animationDelay: "0.2s",
                 }}
@@ -75,7 +75,7 @@ const Benefits = () => {
                   </div>
                 ))}
 
-                <div className="pt-4 md:pt-8">
+                <div className="pt-3 md:pt-8">
                   <a
                     href="https://www.fasuleducacional.edu.br/posgraduacao/cursos"
                     target="_blank"

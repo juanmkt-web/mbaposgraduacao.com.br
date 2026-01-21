@@ -51,7 +51,7 @@ const Testimonials = () => {
   const currentTestimonial = testimonials[currentIndex];
 
   return (
-    <section id="depoimentos" className="pt-9 pb-12 md:pt-[72px] md:pb-24 bg-[#1e2842] relative" style={{ marginTop: "15px" }}>
+    <section id="depoimentos" className="pt-6 pb-8 md:pt-[72px] md:pb-24 bg-[#1e2842] relative" style={{ marginTop: "10px" }}>
       <div className="absolute bottom-0 left-0 right-0 h-10 md:h-16 lg:h-20">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -66,8 +66,8 @@ const Testimonials = () => {
         </svg>
       </div>
       <div className="container mx-auto px-3 sm:px-4 relative z-10">
-        <div className="text-center mb-8 sm:mb-12 animate-fade-in text-white">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">
+        <div className="text-center mb-5 sm:mb-12 animate-fade-in text-white">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 sm:mb-4">
             CARREIRAS QUE <span className="text-cyan-light">DECOLARAM</span>.
           </h2>
           <p className="text-sm sm:text-lg text-white/90 max-w-3xl mx-auto">
